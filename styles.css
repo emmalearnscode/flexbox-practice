@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container {
+  display: flex;
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+.c1 {
+  justify-content: flex-start;
+}
+
+.c2 {
+  justify-content: flex-end;
+}
+
+.c3 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.c4 {
+  align-items: flex-end;
+}
+
+.c5 {
+  justify-content: center;
+  align-items: center;
+}
+
+.c6 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.c7 {
+  
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.c8 {
+  justify-content: flex-end;
+  padding: 10px;
+}
